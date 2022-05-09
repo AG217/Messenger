@@ -2,5 +2,5 @@
     <string name="app_name">Messenger</string>
     <string name="button_send">Отправить</string>
     <string name="hint_send_msg">Введите сообщение</string>
-
+    <string name="exit">Вернуться</string>
 </resources>

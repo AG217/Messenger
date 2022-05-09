@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 public class ReceivedMessageActivity extends AppCompatActivity {
@@ -18,5 +19,9 @@ public class ReceivedMessageActivity extends AppCompatActivity {
         Intent intent = getIntent();
         String msg = intent.getStringExtra("msg");
         textViewReceivedMsg.setText(msg);
+    }
+
+    public void back(View view) {
+        finish();
     }
 }
