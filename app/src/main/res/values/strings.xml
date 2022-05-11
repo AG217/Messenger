@@ -3,4 +3,18 @@
     <string name="button_send">Отправить</string>
     <string name="hint_send_msg">Введите сообщение</string>
     <string name="exit">Вернуться</string>
+    <string name="chooser_title">Как вы хотите отправить сообщение?</string>
+    <string name="button_fast_text">Выбрать готовый текст</string>
+    <string-array name="whom_this_text">
+        <item>Привет, друг!</item>
+        <item>Привет, мама!</item>
+        <item>Привет, папа!</item>
+    </string-array>
+    
+    <string-array name="fast_text">
+        <item>Привет! Как твои дела? Как настроение? Чем занимаешься? Давай договоримся о встрече!</item>
+        <item>Привет, мама! Как твои дела? Как здоровье? Есть какие-нибудь новости?</item>
+        <item>Привет, папа! Как твои дела? как здоровье? Как работа?</item>
+    </string-array>
+
 </resources>

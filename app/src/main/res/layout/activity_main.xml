@@ -24,10 +24,43 @@
         android:id="@+id/buttonSend"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="@string/button_send"
         android:onClick="onClickSendMsg"
+        android:text="@string/button_send"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextMessage" />
+
+    <Spinner
+        android:id="@+id/spinnerFastText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/whom_this_text"
+        android:layout_margin="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSend" />
+
+    <Button
+        android:id="@+id/buttonFindText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_fast_text"
+        android:layout_margin="8dp"
+        android:onClick="selectFastText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerFastText" />
+
+    <TextView
+        android:id="@+id/textViewFastText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textIsSelectable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonFindText" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
